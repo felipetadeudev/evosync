@@ -7,13 +7,13 @@ main {
     display: grid;
     max-width: 800px;
     margin: 0 auto;
-    padding: 8rem 0;
+    padding: 2rem 1rem 8rem 1rem;
 }
 
 h1 {
     font-size: 3rem;
     font-weight: 600;
-margin-bottom: 1rem;
+    margin-bottom: 1rem;
 }
 
 h2 {
@@ -33,4 +33,20 @@ a {
     font-size: 1.5rem;
     color: white;
     margin-top: 2rem;
+}
+
+a:hover {
+    color: rgb(105, 111, 117);
+}
+
+header {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+}
+
+header a {
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.4rem;
 }
